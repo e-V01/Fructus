@@ -19,6 +19,7 @@
 		9E9893452B512F8A00614020 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9893442B512F8A00614020 /* ContentView.swift */; };
 		9E9893472B512F8B00614020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9893462B512F8B00614020 /* Assets.xcassets */; };
 		9E98934A2B512F8B00614020 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9893492B512F8B00614020 /* Preview Assets.xcassets */; };
+		9EA2E37F2B5B128000345D5B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA2E37E2B5B128000345D5B /* SettingsView.swift */; };
 		9EB0F70C2B513E850065A88F /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB0F70B2B513E850065A88F /* FruitCardView.swift */; };
 		9EB0F70E2B5162430065A88F /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB0F70D2B5162430065A88F /* StartButtonView.swift */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		9E9893442B512F8A00614020 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E9893462B512F8B00614020 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E9893492B512F8B00614020 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9EA2E37E2B5B128000345D5B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		9EB0F70B2B513E850065A88F /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
 		9EB0F70D2B5162430065A88F /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +114,7 @@
 				9E9893442B512F8A00614020 /* ContentView.swift */,
 				9E57D42C2B53FE93005D5EC0 /* OnboardingView.swift */,
 				9E5BCE102B555125003DBBF8 /* FruitDetailView.swift */,
+				9EA2E37E2B5B128000345D5B /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				9E5895652B54015600F2BF84 /* FruitsData.swift in Sources */,
 				9E57D42D2B53FE93005D5EC0 /* OnboardingView.swift in Sources */,
 				9E9893432B512F8A00614020 /* FructusApp.swift in Sources */,
+				9EA2E37F2B5B128000345D5B /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
