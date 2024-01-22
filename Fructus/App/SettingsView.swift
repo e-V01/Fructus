@@ -49,8 +49,21 @@ struct SettingsView: View {
                             .multilineTextAlignment(.leading)
                         
                         Toggle(isOn: $isOnboarding) {
-                            Text("Restart".uppercased())
+                            if isOnboarding {
+                                Text("Restarted".uppercased())
+                                    .fontWeight(.bold)
+                                    .foregroundStyle(.green)
+                            } else {
+                                Text("Restart".uppercased())
+                                    .fontWeight(.bold)
+                                    .foregroundStyle(.secondary)
+                            }
                         }
+                        .padding()
+                        .background(
+                            Color(UIColor.tertiarySystemBackground)
+                                .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+                            )
                     }
 
                     //MARK: - Section 3
