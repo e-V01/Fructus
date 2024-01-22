@@ -34,6 +34,7 @@ struct ContentView: View {
             }
             .navigationBarTitleDisplayMode(.inline)
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
